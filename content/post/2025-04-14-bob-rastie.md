@@ -11,7 +11,7 @@ published: true
 tags:
     - NovinkyZpoľa
  
-URL: "2025/04/14/Priesady_Na_Predaj"
+URL: "2025/04/14/Bob_kvitne"
 categories: [ Tech]
 ---
 ### Bôby pekne rasú a už aj kvitnú ###
