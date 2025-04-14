@@ -22,7 +22,7 @@ na chuť mladých plodov
 na leto
 
 
-![Priesady 1](/img/bob-kvet.jpg)
-![Priesady 2](/img/bob-rast.jpg)
+![Bob Kvet](/img/bob-kvet.jpg)
+![Bob rastie](/img/bob-rast.jpg)
 
 
