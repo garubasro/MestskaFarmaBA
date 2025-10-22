@@ -2,7 +2,7 @@ backend:
   name: github
   repo:  garubasro/MestskaFarmaBA 
   branch: main
-  base_url: https://mestskafarmaba.sk
+  base_url: https://www.mestskafarmaba.sk
   auth_type: implicit
   app_id: Ov23liCnJpmJAjUB95e9
 
