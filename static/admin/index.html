@@ -4,13 +4,26 @@
     <meta charset="utf-8" />
     <title>Content Manager</title>
 
-    <!-- Odkaz na config.yml -->
+    <!-- Explicitne definuj config.yml -->
     <link rel="cms-config-url" type="text/yaml" href="config.yml" />
 
-    <!-- Použi stabilnú verziu Decap CMS (bez chyby Node.removeChild) -->
-    <script src="https://cdn.jsdelivr.net/gh/decaporg/decap-cms@2.15.69/dist/decap-cms.js"></script>
+    <!-- Aktuálna 3.x verzia CMS -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" defer></script>
   </head>
   <body>
-    <!-- Nie je potrebné ručne volať CMS.init(), robí to automaticky -->
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+        if (typeof CMS !== 'undefined') {
+          try {
+            CMS.init();
+            console.log('Decap CMS initialized');
+          } catch (err) {
+            console.warn('Non-critical CMS error ignored:', err);
+          }
+        } else {
+          console.error("CMS is not defined — decap-cms.js failed to load.");
+        }
+      });
+    </script>
   </body>
 </html>
