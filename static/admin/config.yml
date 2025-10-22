@@ -1,22 +1,21 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: tvoje-username/moj-web
   branch: main
+  base_url: https://tvoje-github-username.github.io
+  auth_type: implicit
+  app_id: TVOJE_GITHUB_APP_ID
 
-publish_mode: editorial_workflow
-
-media_folder: "static/img"
-public_folder: "/img"
-
-site_url: https://mestskafarmaba.sk
-display_url: https://mestskafarmaba.sk
+media_folder: "static/uploads"
+public_folder: "/uploads"
 
 collections:
-  - name: "post"
-    label: "Poss"
-    folder: "content/post"
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
