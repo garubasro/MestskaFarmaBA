@@ -4,22 +4,13 @@
     <meta charset="utf-8" />
     <title>Content Manager</title>
 
-    <!-- Explicitne definuj cestu ku config.yml -->
+    <!-- Odkaz na config.yml -->
     <link rel="cms-config-url" type="text/yaml" href="config.yml" />
 
-    <!-- Načítaj Decap CMS s defer → čaká na načítanie DOM -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" defer></script>
+    <!-- Použi stabilnú verziu Decap CMS (bez chyby Node.removeChild) -->
+    <script src="https://unpkg.com/decap-cms@2.15.72/dist/decap-cms.js"></script>
   </head>
   <body>
-    <!-- Inicializuj CMS až keď je DOM aj skript načítaný -->
-    <script>
-      window.addEventListener('DOMContentLoaded', function () {
-        if (typeof CMS !== 'undefined') {
-          CMS.init();
-        } else {
-          console.error("CMS is not defined — decap-cms.js failed to load.");
-        }
-      });
-    </script>
+    <!-- Nie je potrebné ručne volať CMS.init(), robí to automaticky -->
   </body>
 </html>
