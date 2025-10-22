@@ -9,7 +9,9 @@
   <body>
     <script>
       window.CMS_MANUAL_INIT = true;
-      CMS.init();
+      window.addEventListener('DOMContentLoaded', function () {
+        CMS.init();
+      });
     </script>
   </body>
 </html>
