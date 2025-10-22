@@ -1,18 +1,18 @@
 backend:
   name: github
-  repo: tvoje-username/moj-web
+  repo:  garubasro/MestskaFarmaBA 
   branch: main
-  base_url: https://tvoje-github-username.github.io
+  base_url: https://mestskafarmaba.sk
   auth_type: implicit
-  app_id: TVOJE_GITHUB_APP_ID
+  app_id: Ov23liCnJpmJAjUB95e9
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "static/img"
+public_folder: "/img"
 
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "content/blog"
+    folder: "content/post"
     create: true
     slug: "{{slug}}"
     fields:
