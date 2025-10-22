@@ -7,6 +7,9 @@ publish_mode: editorial_workflow
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
+site_url: https://mestskafarmaba.sk
+display_url: https://mestskafarmaba.sk
+
 collections:
   - name: "posts"
     label: "Posts"
