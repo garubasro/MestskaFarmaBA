@@ -7,11 +7,11 @@
     <!-- Explicitne definuj config.yml -->
     <link rel="cms-config-url" type="text/yaml" href="config.yml" />
 
-    <!-- Načítaj Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <!-- Načítaj Decap CMS s defer → čaká na DOM -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" defer></script>
   </head>
   <body>
-    <!-- Inicializuj CMS až po načítaní DOM a skriptu -->
+    <!-- Inicializuj CMS až keď je DOM aj skript načítaný -->
     <script>
       window.addEventListener('DOMContentLoaded', function () {
         if (typeof CMS !== 'undefined') {
