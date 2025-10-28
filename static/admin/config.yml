@@ -3,7 +3,7 @@ backend:
   repo:  garubasro/MestskaFarmaBA 
   branch: main 
   auth_type: implicit 
-  app_id: Ov23liCnJpmJAjUB95e9
+  client_id: Ov23liRCVaNwngQwndXO
 
 media_folder: "static/img"
 public_folder: "/img"
@@ -11,8 +11,8 @@ publish_mode: editorial_workflow
 
 
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "post"
+    label: "Post"
     folder: "content/post"
     create: true
     slug: "{{slug}}"
