@@ -10,7 +10,6 @@ public_folder: "/img"
 publish_mode: simple
 
 
-
 collections:
   - name: "post"
     label: "Post"
@@ -50,4 +49,16 @@ collections:
         media_library:
           config:
             multiple: false
-      - label
+      - label: "Published:"
+        name: "published"
+        widget: "boolean"
+        default: true
+      - label: "Tags:"
+        name: "tags"
+        widget: "list"
+      - label: "Categories:"
+        name: "categories"
+        widget: "list"
+      - label: "Body:"
+        name: "body"
+        widget: "markdown"
