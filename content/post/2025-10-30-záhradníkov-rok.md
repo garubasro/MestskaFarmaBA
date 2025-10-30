@@ -14,7 +14,7 @@ tags:
 URL: "2025/10/30/Zahradnikov_rok"
 categories: [ Tech]
 ---
-###Koniec roka, koniec prác###
+### Koniec roka, koniec prác ###
 Jeden by povedal, že už je koniec roka. Lenže záhradníkov rok nekončí...
 
 Stále zbierame vynikaj[ci kel. S chaldnejším počasím je chutnejší.
