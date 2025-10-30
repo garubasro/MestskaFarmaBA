@@ -17,7 +17,7 @@ categories: [ Tech]
 ### Koniec roka, koniec prác ###
 Jeden by povedal, že už je koniec roka. Lenže záhradníkov rok nekončí...
 
-Stále zbierame vynikaj[ci kel. S chaldnejším počasím je chutnejší.
+Stále zbierame vynikajúci kel. S chaldnejším počasím je chutnejší.
 
 Kelové čipsy su mňam. 
 
